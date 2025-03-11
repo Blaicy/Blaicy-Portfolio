@@ -1,0 +1,34 @@
+footer {
+  background-color: black;
+  color: white;
+}
+
+.lists {
+  display: flex;
+  gap: 180px;
+  cursor: pointer;
+  padding: 50px;
+}
+
+.lists li,
+.lists p {
+  margin-bottom: 20px;
+}
+
+.lists p {
+  font-size: 18px;
+  color: purple;
+  text-decoration: underline;
+}
+
+.cpr {
+  padding: 50px;
+  font-size: 18px;
+  color: aquamarine;
+  cursor: pointer;
+}
+
+.cpr span:hover,
+.lists li:hover {
+  text-decoration: underline;
+}

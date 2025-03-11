@@ -1,0 +1,63 @@
+.caroption {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.cardcars {
+  width: 300px;
+  border: 5px solid white;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.cardcars img {
+  width: 100%;
+}
+
+.cardcars:hover {
+  box-shadow: 4px 4px 4px;
+}
+
+.caroptiongrid {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 10px;
+  height: 550px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 30px;
+}
+
+.caroptiongrid::-webkit-scrollbar {
+  background-color: white;
+  width: 5px;
+}
+
+.caroptiongrid::-webkit-scrollbar-thumb {
+  background-color: purple;
+  height: 5px;
+}
+
+.cl {
+  width: 600px;
+}
+
+.cl .div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.button-holder {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+}
+
+.button-holder button {
+  font-size: 15px;
+  border: 2px solid purple;
+  border-radius: 80px;
+  padding: 10px 30px;
+}
